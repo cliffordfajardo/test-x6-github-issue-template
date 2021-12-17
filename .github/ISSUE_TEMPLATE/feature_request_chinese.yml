@@ -43,7 +43,7 @@ body:
   - type: textarea
     id: screenshots_or_videos
     attributes:
-      label: Screen Shots or Videos
+      label: 屏幕截图或视频
       description: |
         如果适用，请添加屏幕截图或视频以帮助解释你的问题。
         如果你认为其他库或框架的例子（链接、图片、视频等）有助于捕捉你的想法，请分享。
