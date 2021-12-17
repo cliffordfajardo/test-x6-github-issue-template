@@ -9,12 +9,14 @@ body:
     attributes:
       value: '功能请求将被转换到GitHub讨论的"💡想法 "部分（https://github.com/antvis/X6/discussions/categories/ideas）'
   - type: textarea
+    id: describe_feature_request
     attributes:
       label: 描述你想申请的功能
       description: 简明扼要地描述你想要什么，你的用例是什么。你给团队提供的背景和描述越多，就越能帮助我们理解你的问题并节省时间。
     validations:
       required: true
   - type: textarea
+    id: describe_alternatives
     attributes:
       label: 描述你想要的解决方案
       description: 简明扼要地描述你希望发生的事情。
@@ -27,7 +29,7 @@ body:
     validations:
       required: true
   - type: input
-    id: link
+    id: code_link
     attributes:
       label: 你的网站或应用程序实例
       description: |
