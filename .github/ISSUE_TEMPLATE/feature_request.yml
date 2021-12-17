@@ -7,7 +7,7 @@ body:
       value: Thanks for taking the time to file a feature request! Please fill out this form as completely as possible.
   - type: markdown
     attributes:
-      value: 'Feature requests will be converted to the GitHub Discussions "Ideas" section (https://github.com/antvis/X6/discussions/categories/ideas)'
+      value: 'Feature requests will be converted to the GitHub Discussions "💡 Ideas" section (https://github.com/antvis/X6/discussions/categories/ideas)'
   - type: textarea
     attributes:
       label: Describe the feature you'd like to request
