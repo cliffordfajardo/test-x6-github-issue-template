@@ -4,10 +4,10 @@ labels: ["template: story"]
 body:
   - type: markdown
     attributes:
-      value: 谢谢你花时间提出功能请求! 请尽可能完整地填写此表。
+      value: 谢谢你花时间提出功能请求! 请尽可能完整地填写此表
   - type: markdown
     attributes:
-      value: '功能请求将被转换到GitHub讨论的"💡想法 "部分（https://github.com/antvis/X6/discussions/categories/ideas）'
+      value: 功能请求将被转换到GitHub讨论的"💡想法 "部分（https://github.com/antvis/X6/discussions/categories/ideas）'
   - type: textarea
     id: describe_feature_request
     attributes:
@@ -16,13 +16,14 @@ body:
     validations:
       required: true
   - type: textarea
-    id: describe_alternatives
+    id: describe_solution
     attributes:
       label: 描述你想要的解决方案
       description: 简明扼要地描述你希望发生的事情。
     validations:
       required: true
   - type: textarea
+    id: describe_alternatives
     attributes:
       label: 描述你所考虑的替代方案
       description: 简明扼要地描述你所考虑的任何替代方案或功能。
